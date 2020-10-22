@@ -31,7 +31,7 @@ string CensorString1(string text, string remove) {
         }
         if (!secondStringFound) {
             // concatenate to the result if the string remove is not found
-            result += text;
+            result += text[i];
         }
     }
     return result;
@@ -73,9 +73,9 @@ string CensorString1(string text, string remove) {
  */
 
 int main(int argc, const char * argv[]) {
-//    string censorString1Result1 = CensorString1("Stanford University", "nt");
-//    string censorString1Result2 = CensorString1("Llamas like to laugh" , "la");
-//    cout << censorString1Result1 << "\n";
-//    cout << censorString1Result2 << endl;
+    string censorString1Result1 = CensorString1("Stanford University", "nt");
+    string censorString1Result2 = CensorString1("Llamas like to laugh" , "la");
+    cout << censorString1Result1 << "\n";
+    cout << censorString1Result2 << endl;
     return 0;
 }
