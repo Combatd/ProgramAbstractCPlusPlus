@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 /* Function: CensorString
@@ -20,7 +21,19 @@ using namespace std;
 
 string CensorString1(string text, string remove) {
     string result = "";
-    
+    for (int i = 0; i < text.length(); i++) {
+        bool secondStringFound = false;
+        for (int j = 0; j < remove.length(); j++) {
+            if (text[i] == remove[j]) {
+                secondStringFound = true;
+                break; // break out before we add to the result string
+            }
+        }
+        if (!secondStringFound) {
+            // concatenate to the result if the string remove is not found
+            result += text;
+        }
+    }
     return result;
 }
 
@@ -60,7 +73,9 @@ string CensorString1(string text, string remove) {
  */
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+//    string censorString1Result1 = CensorString1("Stanford University", "nt");
+//    string censorString1Result2 = CensorString1("Llamas like to laugh" , "la");
+//    cout << censorString1Result1 << "\n";
+//    cout << censorString1Result2 << endl;
     return 0;
 }
