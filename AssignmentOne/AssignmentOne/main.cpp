@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include <fstream> // for use of the istream file reading
 using namespace std;
 
 /* Function: CensorString
@@ -62,6 +63,42 @@ statsT CalculateStatistics (string filename) {
     // we set the instance of statsT stats low and high properties accordingly
     stats.low = 101; // exclude this high number from range
     stats.high = -1; // exclude this low number from range
+    
+    int total = 0;
+    int count = 0;
+    
+    // ifstream is from the std library
+    // file open for reading: the internal stream buffer supports input operations.
+    ifstream in;
+    // std::string::c_str
+    // Returns a pointer to an array that contains a null-terminated sequence of characters (i.e., a C-string) representing the current value of the string object.
+    in.open(filename.c_str());
+    // std::ios::fail
+    // Returns true if either (or both) the failbit or the badbit error state flags is set for the stream.
+    if (in.fail()) {
+        throw runtime_error("Cannot read the file called " + filename);
+    }
+    
+    do {
+        int num;
+        in >> num; // insert the input from in into the integer num
+        // We should make sure that the file input is read successfully
+        if (in.fail()) {
+            break; // break out if the file fails to be read
+        }
+        // We should update our data as needed
+        if (num < stats.low) {
+            stats.low = num;
+        }
+        if (num > stats.high) {
+            stats.high = num;
+        }
+        total += num;
+        count += 1; // how many data inputs we have gone through
+    } while (true); // if while true is used, ensure you have BREAK conditions set!
+    
+    stats.average = double(total) / count; // cast the average to a double type
+    in.close(); // close all files once finished
     
     return stats;
 };
