@@ -37,6 +37,10 @@ string CensorString1(string text, string remove) {
     return result;
 }
 
+// void CensorString2 (string &text, string remove) {
+//
+//}
+
 /* CalculateStatistics()
  * Usage: stats = CalculateStatistics(filename)
  * --------------------------------------------
@@ -45,9 +49,24 @@ string CensorString1(string text, string remove) {
  * the average when we're done
  */
 
-//void CensorString2 (string &text, string remove) {
-//
-//}
+// C++ Structure is a collection of different data types.
+struct statsT {
+    int low;
+    int high;
+    double average;
+};
+
+statsT CalculateStatistics (string filename) {
+    statsT stats;
+    // statistics are always between percentiles of 0 to 100
+    // we set the instance of statsT stats low and high properties accordingly
+    stats.low = 101; // exclude this high number from range
+    stats.high = -1; // exclude this low number from range
+    
+    return stats;
+};
+
+
 
 /*
  Write a function CountLetters that takes a filename and prints the number of times
