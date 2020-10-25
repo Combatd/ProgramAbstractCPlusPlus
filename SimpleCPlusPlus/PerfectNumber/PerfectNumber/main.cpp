@@ -21,9 +21,30 @@
  */
 
 #include <iostream>
+#include "libgen.h"
+#include "simpio.h"
+
+const int MAX_NUMBER = 10000; // 4 perfect numbers exist!
+
+bool isPerfect(int number); // define this predicate function (returns boolean)
+
+bool isPerfect(int number) {
+    int sum = 0;
+    for (int i = 0; i < number; i++) {
+        // sum of all proper divisors leading up to the number
+        if (i > 0 && number % i == 0) {
+            sum += i;
+        }
+    }
+    return (number > 0 && sum == number);
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    // We should print out all our perfect numbers!
+    for (int i = 0; i < MAX_NUMBER; i++) {
+        if (isPerfect(i)) {
+            std::cout << i << std::endl;
+        }
+    }
     return 0;
 }
