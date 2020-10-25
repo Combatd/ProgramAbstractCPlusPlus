@@ -25,6 +25,37 @@
 /* Begin PBXFileReference section */
 		5AE51537254233510004DB49 /* AssignmentOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AssignmentOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE5153A254233510004DB49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AE515562545E29B0004DB49 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		5AE515572545E2B90004DB49 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		5AE515582545E2B90004DB49 /* set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		5AE515592545E2B90004DB49 /* strlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
+		5AE5155A2545E2B90004DB49 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		5AE5155B2545E2B90004DB49 /* tokenscanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenscanner.h; sourceTree = "<group>"; };
+		5AE5155C2545E2B90004DB49 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		5AE5155D2545E2B90004DB49 /* sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		5AE5155E2545E2B90004DB49 /* simpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		5AE5155F2545E2B90004DB49 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		5AE515602545E2C20004DB49 /* ginteractors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ginteractors.h; sourceTree = "<group>"; };
+		5AE515612545E2C20004DB49 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		5AE515622545E2C20004DB49 /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		5AE515632545E2C20004DB49 /* gtimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtimer.h; sourceTree = "<group>"; };
+		5AE515642545E2C20004DB49 /* direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
+		5AE515652545E2C20004DB49 /* gwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gwindow.h; sourceTree = "<group>"; };
+		5AE515662545E2C20004DB49 /* hashmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		5AE515672545E2C20004DB49 /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		5AE515682545E2C20004DB49 /* hashset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashset.h; sourceTree = "<group>"; };
+		5AE515692545E2C20004DB49 /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		5AE5156A2545E2C30004DB49 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		5AE5156B2545E2C30004DB49 /* lexicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexicon.h; sourceTree = "<group>"; };
+		5AE5156C2545E2C30004DB49 /* filelib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filelib.h; sourceTree = "<group>"; };
+		5AE5156D2545E2C30004DB49 /* gmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gmath.h; sourceTree = "<group>"; };
+		5AE5156E2545E2C30004DB49 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		5AE5156F2545E2C30004DB49 /* gtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
+		5AE515702545E2C30004DB49 /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		5AE515712545E2C30004DB49 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		5AE515722545E2C30004DB49 /* gobjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gobjects.h; sourceTree = "<group>"; };
+		5AE515732545E2C30004DB49 /* gevents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gevents.h; sourceTree = "<group>"; };
+		5AE515742545E2C30004DB49 /* foreach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foreach.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +88,37 @@
 		5AE51539254233510004DB49 /* AssignmentOne */ = {
 			isa = PBXGroup;
 			children = (
+				5AE515672545E2C20004DB49 /* console.h */,
+				5AE515642545E2C20004DB49 /* direction.h */,
+				5AE5156A2545E2C30004DB49 /* error.h */,
+				5AE5156C2545E2C30004DB49 /* filelib.h */,
+				5AE515742545E2C30004DB49 /* foreach.h */,
+				5AE515732545E2C30004DB49 /* gevents.h */,
+				5AE515602545E2C20004DB49 /* ginteractors.h */,
+				5AE5156D2545E2C30004DB49 /* gmath.h */,
+				5AE515722545E2C30004DB49 /* gobjects.h */,
+				5AE5156E2545E2C30004DB49 /* graph.h */,
+				5AE515692545E2C20004DB49 /* grid.h */,
+				5AE515632545E2C20004DB49 /* gtimer.h */,
+				5AE5156F2545E2C30004DB49 /* gtypes.h */,
+				5AE515652545E2C20004DB49 /* gwindow.h */,
+				5AE515662545E2C20004DB49 /* hashmap.h */,
+				5AE515682545E2C20004DB49 /* hashset.h */,
+				5AE5156B2545E2C30004DB49 /* lexicon.h */,
+				5AE515702545E2C30004DB49 /* map.h */,
+				5AE515612545E2C20004DB49 /* platform.h */,
+				5AE515622545E2C20004DB49 /* point.h */,
+				5AE515712545E2C30004DB49 /* pqueue.h */,
+				5AE5155A2545E2B90004DB49 /* queue.h */,
+				5AE5155C2545E2B90004DB49 /* random.h */,
+				5AE515582545E2B90004DB49 /* set.h */,
+				5AE5155E2545E2B90004DB49 /* simpio.h */,
+				5AE5155D2545E2B90004DB49 /* sound.h */,
+				5AE5155F2545E2B90004DB49 /* stack.h */,
+				5AE515592545E2B90004DB49 /* strlib.h */,
+				5AE515572545E2B90004DB49 /* thread.h */,
+				5AE5155B2545E2B90004DB49 /* tokenscanner.h */,
+				5AE515562545E29B0004DB49 /* vector.h */,
 				5AE5153A254233510004DB49 /* main.cpp */,
 			);
 			path = AssignmentOne;

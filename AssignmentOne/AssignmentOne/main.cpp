@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include <fstream> // for use of the istream file reading
+#include "vector.h" // Custom Library for Vectors
 using namespace std;
 
 /* Function: CensorString
@@ -127,6 +128,19 @@ statsT CalculateStatistics (string filename) {
  following prototype.
  void CountLetters(string filename);
  */
+
+const int AlphabetLength = 26; // only have 26 letters
+
+void CountLetters(string filename) {
+    // let us open up the filestream first and check it opened correctly
+//    ifstream in;
+//    in.open(filename.c_str());
+//    if (in.fail()) {
+//        throw runtime_error("Cannot read file called " + filename);
+//    }
+//    
+//    Vector<int> result;
+};
 
 int main(int argc, const char * argv[]) {
     string censorString1Result1 = CensorString1("Stanford University", "nt");
