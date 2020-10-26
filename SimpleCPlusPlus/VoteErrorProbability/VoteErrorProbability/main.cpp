@@ -32,8 +32,39 @@
  Chance of an invalid election result after 500 trials = 13.4%
  */
 
+// We should run this simulation for 500 trials
+const int NUMBER_TRIALS = 500;
+
+double CalculateVoteError(int voters, double spread, double error);
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;
+}
+
+// # CalculateVoteError will take input from terminal input
+// parameters will be encapsulated into this function as we may reuse variable names locally
+double CalculateVoteError(int v, double s, double e) {
+    double invalidElections = 0; // number of trials an election result was invalid
+    int spread = v * s;
+    for (int i = 0; i < NUMBER_TRIALS; i++) { // we need to do this for 2 candidates
+        int candidateA = 0; // first candidate
+        int candidateB = 0; // second candidate
+        
+        for (int j = 0; j < NUMBER_TRIALS; j++) { // nested loop runs vote trial
+            bool vote = randomChance(1.0 - e); // cast votes subtracting the margin of error
+            if (j < (v / 2) + spread) { // apply error votes according to spread across both candidates
+                if (vote) {
+                    candidateA++; // truthy casts vote for candidateA
+                } else {
+                    candidateB++; // falsey casts vote for candidateB
+                }
+            }
+        }
+        if (candidateB > candidateA) {
+            invalidElections++; // candidate B winning is an erroneous election
+        }
+    }
+    return double(invalidElections / NUMBER_TRIALS * 100); // Order of Operations applies to the formula, so no need for extra parenthesis
 }
