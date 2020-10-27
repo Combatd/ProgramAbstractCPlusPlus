@@ -57,3 +57,30 @@ void DrawLoop(); // Randomly choose one vertex and move the current point half o
 int main() {
     return 0;
 }
+
+void CreateTriangle() {
+    int count = 0; // keep track of the mouse clicks of the user
+    while (count < 3) {
+        WaitForMouseDown();
+        WaitForMouseUp();
+        double X = GetMouseX(); // Get X value of specified Mouse Pointer
+        double Y = GetMouseY(); // Get Y value of specified Mouse Pointer
+        // log the 3 vertices
+        if (count == 0) {
+            MovePen(X, Y); // This procedure moves the current point to the position (x, y), without drawing a line. The model is that of the pen being lifted off the graphics window surface and then moved to its new position.
+            firstVertex.X = X;
+            firstVertex.Y = Y;
+        } else if (count == 1) {
+            secondVertex.X = X;
+            secondVertex.Y = Y;
+            DrawLine(secondVertex.X - firstVertex.X, secondVertex.Y - firstVertex.Y);
+        } else {
+            thirdVertex.X = X;
+            thirdVertex.Y = Y;
+            DrawLine(thirdVertex.X - secondVertex.X, thirdVertex.Y - secondVertex.Y);
+            // close the triangle by drawing line from first to third vertex
+            DrawLine(firstVertex.X - thirdVertex.X , firstVertex.Y - thirdVertex.Y);
+        }
+        count++; // iterate at every mouse click
+    }
+}
