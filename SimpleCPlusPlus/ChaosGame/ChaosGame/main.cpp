@@ -84,3 +84,17 @@ void CreateTriangle() {
         count++; // iterate at every mouse click
     }
 }
+
+// We need to draw an initial circle at a random point in the Triangle.
+void SetFirstCircle() {
+    Point currentPoint = RandomPoint();
+    MovePen(currentPoint.X, currentPoint.Y);
+    StartFilledRegion(1); // Starts defining a region that will be filled with the current color. Any line segments drawn between now and the matching call to endFilledRegion will be used to create a polygon that is then filled.
+    DrawArc(CIRCLE_SIZE, 0, 360); // Draws an elliptical arc inscribed in a rectangle. The parameters x, y, width, and height (or, equivalently, the GRectangle bounds) specify the coordinates and dimensions of the bounding rectangle. The start parameter indicates the angle at which the arc begins and is measured in degrees counterclockwise from the +x axis. Thus, a start angle of 0 indicates an arc that begins along the line running eastward from the center, a start angle of 135 begins along the line running northwest, and a start angle of -90 begins along the line running south. The sweep parameter indicates the extent of the arc and is also measured in degrees counterclockwise. A sweep angle of 90 defines a quarter circle extending counterclockwise from the start angle, and a sweep angle of -180 defines a semicircle extending clockwise.
+    EndFilledRegion();
+}
+
+// DrawLoop() will draw circles to fill the triangle.
+void DrawLoop() {
+    UpdateDisplay(); // This function initiates an immediate update of the graphics window and is necessary for animation. Ordinarily, the graphics window is only updated when the program waits for user input.
+}
