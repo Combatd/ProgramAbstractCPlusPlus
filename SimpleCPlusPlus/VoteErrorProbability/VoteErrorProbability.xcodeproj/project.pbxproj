@@ -25,39 +25,13 @@
 /* Begin PBXFileReference section */
 		5AE515B425460E8E0004DB49 /* VoteErrorProbability */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VoteErrorProbability; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE515B725460E8E0004DB49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5AE515BF25460EBB0004DB49 /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
-		5AE515C025460EBB0004DB49 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
-		5AE515C125460EBB0004DB49 /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
-		5AE515C225460EBB0004DB49 /* direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
-		5AE515C325460EBB0004DB49 /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
-		5AE515C425460EBB0004DB49 /* gmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gmath.h; sourceTree = "<group>"; };
-		5AE515C525460EBB0004DB49 /* gobjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gobjects.h; sourceTree = "<group>"; };
-		5AE515C625460EBB0004DB49 /* gevents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gevents.h; sourceTree = "<group>"; };
-		5AE515C725460EBB0004DB49 /* gtimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtimer.h; sourceTree = "<group>"; };
-		5AE515C825460EBB0004DB49 /* gwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gwindow.h; sourceTree = "<group>"; };
-		5AE515C925460EBB0004DB49 /* hashset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashset.h; sourceTree = "<group>"; };
-		5AE515CA25460EBC0004DB49 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
-		5AE515CB25460EBC0004DB49 /* lexicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexicon.h; sourceTree = "<group>"; };
-		5AE515CC25460EBC0004DB49 /* hashmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
-		5AE515CD25460EBC0004DB49 /* foreach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foreach.h; sourceTree = "<group>"; };
-		5AE515CE25460EBC0004DB49 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
-		5AE515CF25460EBC0004DB49 /* filelib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filelib.h; sourceTree = "<group>"; };
-		5AE515D025460EBC0004DB49 /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
-		5AE515D125460EBC0004DB49 /* ginteractors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ginteractors.h; sourceTree = "<group>"; };
-		5AE515D225460EBC0004DB49 /* gtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtypes.h; sourceTree = "<group>"; };
-		5AE515D325460EBC0004DB49 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
-		5AE515D425460EC80004DB49 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		5AE515D525460EC80004DB49 /* set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
-		5AE515D625460EC80004DB49 /* tokenscanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenscanner.h; sourceTree = "<group>"; };
-		5AE515D725460EC80004DB49 /* strlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
-		5AE515D825460EC80004DB49 /* simpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
-		5AE515D925460EC80004DB49 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
-		5AE515DA25460EC80004DB49 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
-		5AE515DB25460EC80004DB49 /* sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
-		5AE515DC25460EC80004DB49 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
-		5AE515DD25460EC80004DB49 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
-		5AE515DE25460F6C0004DB49 /* private */ = {isa = PBXFileReference; lastKnownFileType = folder; path = private; sourceTree = "<group>"; };
-		5AE515DF25460FD50004DB49 /* genlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
+		5AE515E1254862250004DB49 /* collections */ = {isa = PBXFileReference; lastKnownFileType = folder; path = collections; sourceTree = "<group>"; };
+		5AE515E2254862250004DB49 /* graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = graphics; sourceTree = "<group>"; };
+		5AE515E3254862250004DB49 /* io */ = {isa = PBXFileReference; lastKnownFileType = folder; path = io; sourceTree = "<group>"; };
+		5AE515E4254862250004DB49 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		5AE515E5254862250004DB49 /* system */ = {isa = PBXFileReference; lastKnownFileType = folder; path = system; sourceTree = "<group>"; };
+		5AE515E6254862260004DB49 /* private */ = {isa = PBXFileReference; lastKnownFileType = folder; path = private; sourceTree = "<group>"; };
+		5AE515E9254867390004DB49 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,40 +64,14 @@
 		5AE515B625460E8E0004DB49 /* VoteErrorProbability */ = {
 			isa = PBXGroup;
 			children = (
-				5AE515DE25460F6C0004DB49 /* private */,
-				5AE515DA25460EC80004DB49 /* queue.h */,
-				5AE515DD25460EC80004DB49 /* random.h */,
-				5AE515D525460EC80004DB49 /* set.h */,
-				5AE515D825460EC80004DB49 /* simpio.h */,
-				5AE515DB25460EC80004DB49 /* sound.h */,
-				5AE515D425460EC80004DB49 /* stack.h */,
-				5AE515D725460EC80004DB49 /* strlib.h */,
-				5AE515DC25460EC80004DB49 /* thread.h */,
-				5AE515D625460EC80004DB49 /* tokenscanner.h */,
-				5AE515D925460EC80004DB49 /* vector.h */,
-				5AE515C325460EBB0004DB49 /* console.h */,
-				5AE515C225460EBB0004DB49 /* direction.h */,
-				5AE515C025460EBB0004DB49 /* error.h */,
-				5AE515CF25460EBC0004DB49 /* filelib.h */,
-				5AE515CD25460EBC0004DB49 /* foreach.h */,
-				5AE515C625460EBB0004DB49 /* gevents.h */,
-				5AE515D125460EBC0004DB49 /* ginteractors.h */,
-				5AE515C425460EBB0004DB49 /* gmath.h */,
-				5AE515C525460EBB0004DB49 /* gobjects.h */,
-				5AE515CE25460EBC0004DB49 /* graph.h */,
-				5AE515BF25460EBB0004DB49 /* grid.h */,
-				5AE515C725460EBB0004DB49 /* gtimer.h */,
-				5AE515D225460EBC0004DB49 /* gtypes.h */,
-				5AE515C825460EBB0004DB49 /* gwindow.h */,
-				5AE515CC25460EBC0004DB49 /* hashmap.h */,
-				5AE515C925460EBB0004DB49 /* hashset.h */,
-				5AE515CB25460EBC0004DB49 /* lexicon.h */,
-				5AE515C125460EBB0004DB49 /* map.h */,
-				5AE515CA25460EBC0004DB49 /* platform.h */,
-				5AE515D025460EBC0004DB49 /* point.h */,
-				5AE515D325460EBC0004DB49 /* pqueue.h */,
+				5AE515E9254867390004DB49 /* genlib.h */,
+				5AE515E1254862250004DB49 /* collections */,
+				5AE515E2254862250004DB49 /* graphics */,
+				5AE515E3254862250004DB49 /* io */,
+				5AE515E6254862260004DB49 /* private */,
+				5AE515E5254862250004DB49 /* system */,
+				5AE515E4254862250004DB49 /* util */,
 				5AE515B725460E8E0004DB49 /* main.cpp */,
-				5AE515DF25460FD50004DB49 /* genlib.h */,
 			);
 			path = VoteErrorProbability;
 			sourceTree = "<group>";

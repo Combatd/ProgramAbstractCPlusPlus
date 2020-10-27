@@ -7,8 +7,8 @@
 
 #include <iostream>
 #include "genlib.h"
-#include "simpio.h"
-#include "random.h"
+#include "io/simpio.h"
+#include "util/random.h"
 
 /*
  With a little knowledge of statistics, it is not hard to calculate the exact probability of an invalid
@@ -38,8 +38,41 @@ const int NUMBER_TRIALS = 500;
 double CalculateVoteError(int voters, double spread, double error);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    void Randomize(); // Call once to initialize a new random sequence
+    // we need to handle invalid input, as well as collect values from input
+    int voters; // initialize the number of total voters
+    while(true) { // make sure to have breakpoints while doing this
+        std::cout << "Enter the number of voters: ";
+        voters = getInteger(); // Reads a complete line from cin and scans it as an integer.
+        if (voters > 0) {
+            break;
+        }
+        std::cout << "Enter a postive number!" << std::endl; // handle zero/negative input!
+    }
+    
+    double spread;
+    while(true) {
+        std::cout << "Enter the percentage spread between the two candidates: ";
+        spread = getReal(); // Reads a complete line from cin and scans it as a floating-point number.
+        if (spread >= 0 && spread <= 1) {
+            break;
+        }
+        std::cout << "Spread must be between 0 and 1.0" << std::endl; // 0% to 100%
+    }
+    
+    double error;
+    while(true) {
+        std::cout << "Enter voting error percentage (margin of error): ";
+        error = getReal(); // Reads a complete line from cin and scans it as a floating-point number.
+        if (error >= 0 && error <= 1) {
+            break;
+        }
+        std::cout << "Error percentage must be between 0 and 1.0!" << "\n"; // needs to be a valid percentage
+    }
+    
+    // After gathering all inputs, we can now run the #CalculateVoteError function
+    std::cout << "\n" << "Chances of invalid election result after " << NUMBER_TRIALS << " trials is "
+    << CalculateVoteError(voters, spread, error) << "%" << std::endl;
     return 0;
 }
 
