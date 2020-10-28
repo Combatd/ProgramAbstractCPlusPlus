@@ -96,5 +96,18 @@ void SetFirstCircle() {
 
 // DrawLoop() will draw circles to fill the triangle.
 void DrawLoop() {
-    UpdateDisplay(); // This function initiates an immediate update of the graphics window and is necessary for animation. Ordinarily, the graphics window is only updated when the program waits for user input.
+    printf("Click your mouse to exit this program...\n"); // print formatted data C string to stdout
+    while (true) {
+        if (MouseButtonIsDown()) {
+            ExitGraphics(); // The program will exit upon user clicking mouse
+        }
+        Point next = RandomPoint();
+        // calculate the coordinates of circle
+        double nextX = ( (next.X - GetCurrentX() ) / 2 ) - GetCurrentX();
+        double nextY = ( (next.Y - GetCurrentY() ) / 2 ) - GetCurrentY();
+        MovePen(nextX, nextY); // This procedure moves the current point to the position (x, y), without drawing a line. The model is that of the pen being lifted off the graphics window surface and then moved to its new position.
+        StartFilledRegion(); // These calls make it possible to draw filled shapes on the display. After calling StartFilledRegion, any calls to DrawLine and DrawArc are used to create a shape definition and do not appear on the screen until EndFilledRegion is called. The lines and arcs must be consecutive, in the sense that each new element must start where the last one ended. MovePen calls may occur at the beginning or the end of the region, but not in the interior. When EndFilledRegion is called, the entire region appears on the screen, with its interior filled in. The density parameter is a number between 0 and 1 and indicates how the dot density to be used for the fill pattern. If density is 1, the shape will be filled in a solid color; if it is 0, the fill will be invisible. In between, the implementation will use a dot pattern that colors some of the screen dots but not others.
+        DrawArc(CIRCLE_SIZE, 0, 360); // Draws an elliptical arc inscribed in a rectangle. The parameters x, y, width, and height (or, equivalently, the GRectangle bounds) specify the coordinates and dimensions of the bounding rectangle. The start parameter indicates the angle at which the arc begins and is measured in degrees counterclockwise from the +x axis. Thus, a start angle of 0 indicates an arc that begins along the line running eastward from the center, a start angle of 135 begins along the line running northwest, and a start angle of -90 begins along the line running south. The sweep parameter indicates the extent of the arc and is also measured in degrees counterclockwise. A sweep angle of 90 defines a quarter circle extending counterclockwise from the start angle, and a sweep angle of -180 defines a semicircle extending clockwise.
+        UpdateDisplay(); // This function initiates an immediate update of the graphics window and is necessary for animation. Ordinarily, the graphics window is only updated when the program waits for user input.
+    }
 }
