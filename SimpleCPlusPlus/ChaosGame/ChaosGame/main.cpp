@@ -55,6 +55,12 @@ void DrawLoop(); // Randomly choose one vertex and move the current point half o
 // the DrawLoop() will continue as the user clicks the mouse
 
 int main() {
+    InitGraphics();
+    Randomize();
+    printf("Click 3 points to make a triangle.\n");
+    CreateTriangle();
+    SetFirstCircle();
+    DrawLoop();
     return 0;
 }
 
