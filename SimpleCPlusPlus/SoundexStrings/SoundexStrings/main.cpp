@@ -37,9 +37,55 @@
  */
 
 #include <iostream>
+#include "lib/genlib.h"
+#include "lib/simpio.h"
+#include <string>
+#include "lib/strutils.h"
+#include <ctype.h>
+
+const int CODE_LENGTH = 4; // Soundex Code is uppercase letter followed by 3 digits
+
+string ParseName(string name); // we need to output the Soundex String
+char ParseChar(char c); // we will encode each character based on the table given above
 
 int main() {
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;
+}
+
+// #ParseName(string name) returns an encoded string according to the Soundex algorithm
+string ParseName(string name) {
+    string code;
+    name = ConvertToUpperCase(name);
+    // get the first letter and convert the rest of the characters to numerals
+    for (int i = 0; i < name.length(); i++) {
+        if (i == 0) {
+            code += name[i]; // save the first character, which will be the upper case letter
+        }
+        if (i > 0 && isalpha(name[i])) {
+            code += ParseChar(name[i]); // convert the character to a number according to Soundex Algorithm
+        }
+    }
+    
+    // remove duplicate integers from variable code
+    for (int j = 0; j < code.length(); j++) {
+        if (j > 0 && code[j] == code[j - 1]) {
+            code.erase(j, 1); // delete any duplicate characters, as some letters share the same encoded chnumber
+        } else if (code[j] == '0') {
+            code.erase(j, 1); // delete any 0s
+        }
+    }
+    
+    // All Soundex Strings must have 4 characters!
+    if (code.length() < CODE_LENGTH) {
+        int zeros = CODE_LENGTH - int(code.length()); // try to keep integer precision
+        for (int k = 0; k < zeros; k++) {
+            code += '0'; // add zeros to the SoundexString if less than 4 characters
+        }
+    } else if (code.length() > CODE_LENGTH){
+        code = code.substr(0, CODE_LENGTH); // remove characters after character index 3
+    }
+    
+    return code; // we will return the 4 character code here
 }
