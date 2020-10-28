@@ -111,3 +111,17 @@ void DrawLoop() {
         UpdateDisplay(); // This function initiates an immediate update of the graphics window and is necessary for animation. Ordinarily, the graphics window is only updated when the program waits for user input.
     }
 }
+
+// RandomPoint() will return a random vertex from a triangle.
+Point RandomPoint() {
+    int rand = RandomInteger(1, 3); // Returns a random integer in the range low to high, inclusive.
+    Point pt;
+    if (rand == 1) {
+        pt = firstVertex;
+    } else if (rand == 2) {
+        pt = secondVertex;
+    } else {
+        pt = thirdVertex;
+    }
+    return pt;
+}
