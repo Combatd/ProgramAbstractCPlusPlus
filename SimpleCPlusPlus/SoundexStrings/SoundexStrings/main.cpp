@@ -49,8 +49,15 @@ string ParseName(string name); // we need to output the Soundex String
 char ParseChar(char c); // we will encode each character based on the table given above
 
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    // get name to encode from the user's input
+    while(true) {
+        std::cout << "Enter the surname (or press ENTER/RETURN to quit): ";
+        string surname = GetLine(); // imported library method for reading strings from cin
+        if (surname == "") { // allow user to exit program if empty C-string
+            exit(0); // exits program and returns 0
+        }
+        std::cout << "The Soundex code for " << surname << " is " << ParseName(surname) << "\n"; // ParseName will convert the C-string into type string!
+    }
     return 0;
 }
 

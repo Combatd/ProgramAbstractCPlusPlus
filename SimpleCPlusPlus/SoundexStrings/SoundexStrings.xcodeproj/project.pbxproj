@@ -8,6 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		5AE516142549812A0004DB49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516132549812A0004DB49 /* main.cpp */; };
+		5AE51631254B24CB0004DB49 /* init.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51621254B24CB0004DB49 /* init.h */; };
+		5AE51632254B24CB0004DB49 /* lexicon.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51622254B24CB0004DB49 /* lexicon.cpp */; };
+		5AE51633254B24CB0004DB49 /* lexicon.dat in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51623254B24CB0004DB49 /* lexicon.dat */; };
+		5AE51634254B24CB0004DB49 /* lexicon.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51624254B24CB0004DB49 /* lexicon.h */; };
+		5AE51635254B24CB0004DB49 /* foreach.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51625254B24CB0004DB49 /* foreach.h */; };
+		5AE51636254B24CB0004DB49 /* extgraph.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51626254B24CB0004DB49 /* extgraph.cpp */; };
+		5AE51637254B24CB0004DB49 /* graphics.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51627254B24CB0004DB49 /* graphics.cpp */; };
+		5AE51638254B24CB0004DB49 /* genlib.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51628254B24CB0004DB49 /* genlib.h */; };
+		5AE51639254B24CB0004DB49 /* extgraph.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51629254B24CB0004DB49 /* extgraph.h */; };
+		5AE5163A254B24CB0004DB49 /* genlib.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162A254B24CB0004DB49 /* genlib.cpp */; };
+		5AE5163B254B24CB0004DB49 /* graphicsclient.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162B254B24CB0004DB49 /* graphicsclient.h */; };
+		5AE5163C254B24CB0004DB49 /* ClientSocket.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162C254B24CB0004DB49 /* ClientSocket.cpp */; };
+		5AE5163D254B24CB0004DB49 /* graphicsclient.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162D254B24CB0004DB49 /* graphicsclient.cpp */; };
+		5AE5163E254B24CB0004DB49 /* graphics.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162E254B24CB0004DB49 /* graphics.h */; };
+		5AE5163F254B24CB0004DB49 /* ClientSocket.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5162F254B24CB0004DB49 /* ClientSocket.h */; };
+		5AE51640254B24CB0004DB49 /* init.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51630254B24CB0004DB49 /* init.cpp */; };
+		5AE51653254B24E50004DB49 /* testgraphics.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51642254B24E40004DB49 /* testgraphics.cpp */; };
+		5AE51654254B24E50004DB49 /* sound.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51643254B24E40004DB49 /* sound.h */; };
+		5AE51655254B24E50004DB49 /* scanner.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51644254B24E50004DB49 /* scanner.h */; };
+		5AE51656254B24E50004DB49 /* sound.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51645254B24E50004DB49 /* sound.cpp */; };
+		5AE51657254B24E50004DB49 /* scanner.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51646254B24E50004DB49 /* scanner.cpp */; };
+		5AE51658254B24E50004DB49 /* simpio.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51647254B24E50004DB49 /* simpio.cpp */; };
+		5AE51659254B24E50004DB49 /* random.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51648254B24E50004DB49 /* random.cpp */; };
+		5AE5165A254B24E50004DB49 /* vector.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51649254B24E50004DB49 /* vector.h */; };
+		5AE5165B254B24E50004DB49 /* simpio.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164A254B24E50004DB49 /* simpio.h */; };
+		5AE5165C254B24E50004DB49 /* SocketException.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164B254B24E50004DB49 /* SocketException.h */; };
+		5AE5165D254B24E50004DB49 /* strutils.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164C254B24E50004DB49 /* strutils.cpp */; };
+		5AE5165E254B24E50004DB49 /* testgraphics.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164D254B24E50004DB49 /* testgraphics.h */; };
+		5AE5165F254B24E50004DB49 /* stack.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164E254B24E50004DB49 /* stack.h */; };
+		5AE51660254B24E50004DB49 /* Socket.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5164F254B24E50004DB49 /* Socket.h */; };
+		5AE51661254B24E50004DB49 /* strutils.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51650254B24E50004DB49 /* strutils.h */; };
+		5AE51662254B24E50004DB49 /* random.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51651254B24E50004DB49 /* random.h */; };
+		5AE51663254B24E50004DB49 /* Socket.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51652254B24E50004DB49 /* Socket.cpp */; };
+		5AE51675254B25000004DB49 /* set.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51665254B24FF0004DB49 /* set.h */; };
+		5AE51676254B25000004DB49 /* bst.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51666254B24FF0004DB49 /* bst.cpp */; };
+		5AE51677254B25000004DB49 /* vector.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51667254B24FF0004DB49 /* vector.cpp */; };
+		5AE51678254B25000004DB49 /* scanner.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51668254B25000004DB49 /* scanner.h */; };
+		5AE51679254B25000004DB49 /* graphics.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51669254B25000004DB49 /* graphics.h */; };
+		5AE5167A254B25000004DB49 /* bst.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166A254B25000004DB49 /* bst.h */; };
+		5AE5167B254B25000004DB49 /* set.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166B254B25000004DB49 /* set.cpp */; };
+		5AE5167C254B25000004DB49 /* map.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166C254B25000004DB49 /* map.cpp */; };
+		5AE5167D254B25000004DB49 /* grid.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166D254B25000004DB49 /* grid.cpp */; };
+		5AE5167E254B25000004DB49 /* grid.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166E254B25000004DB49 /* grid.h */; };
+		5AE5167F254B25000004DB49 /* queue.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5166F254B25000004DB49 /* queue.cpp */; };
+		5AE51680254B25000004DB49 /* stack.cpp in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51670254B25000004DB49 /* stack.cpp */; };
+		5AE51681254B25000004DB49 /* stack.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51671254B25000004DB49 /* stack.h */; };
+		5AE51682254B25000004DB49 /* queue.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51672254B25000004DB49 /* queue.h */; };
+		5AE51683254B25000004DB49 /* map.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51673254B25000004DB49 /* map.h */; };
+		5AE51684254B25000004DB49 /* vector.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE51674254B25000004DB49 /* vector.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +75,55 @@
 		5AE516102549812A0004DB49 /* SoundexStrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoundexStrings; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE516132549812A0004DB49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5AE5161B2549813B0004DB49 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		5AE51621254B24CB0004DB49 /* init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = init.h; path = SoundexStrings/lib/init.h; sourceTree = "<group>"; };
+		5AE51622254B24CB0004DB49 /* lexicon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lexicon.cpp; path = SoundexStrings/lib/lexicon.cpp; sourceTree = "<group>"; };
+		5AE51623254B24CB0004DB49 /* lexicon.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = lexicon.dat; path = SoundexStrings/lib/lexicon.dat; sourceTree = "<group>"; };
+		5AE51624254B24CB0004DB49 /* lexicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lexicon.h; path = SoundexStrings/lib/lexicon.h; sourceTree = "<group>"; };
+		5AE51625254B24CB0004DB49 /* foreach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = foreach.h; path = SoundexStrings/lib/foreach.h; sourceTree = "<group>"; };
+		5AE51626254B24CB0004DB49 /* extgraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = extgraph.cpp; path = SoundexStrings/lib/extgraph.cpp; sourceTree = "<group>"; };
+		5AE51627254B24CB0004DB49 /* graphics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = graphics.cpp; path = SoundexStrings/lib/graphics.cpp; sourceTree = "<group>"; };
+		5AE51628254B24CB0004DB49 /* genlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = genlib.h; path = SoundexStrings/lib/genlib.h; sourceTree = "<group>"; };
+		5AE51629254B24CB0004DB49 /* extgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = extgraph.h; path = SoundexStrings/lib/extgraph.h; sourceTree = "<group>"; };
+		5AE5162A254B24CB0004DB49 /* genlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = genlib.cpp; path = SoundexStrings/lib/genlib.cpp; sourceTree = "<group>"; };
+		5AE5162B254B24CB0004DB49 /* graphicsclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = graphicsclient.h; path = SoundexStrings/lib/graphicsclient.h; sourceTree = "<group>"; };
+		5AE5162C254B24CB0004DB49 /* ClientSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ClientSocket.cpp; path = SoundexStrings/lib/ClientSocket.cpp; sourceTree = "<group>"; };
+		5AE5162D254B24CB0004DB49 /* graphicsclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = graphicsclient.cpp; path = SoundexStrings/lib/graphicsclient.cpp; sourceTree = "<group>"; };
+		5AE5162E254B24CB0004DB49 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = graphics.h; path = SoundexStrings/lib/graphics.h; sourceTree = "<group>"; };
+		5AE5162F254B24CB0004DB49 /* ClientSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ClientSocket.h; path = SoundexStrings/lib/ClientSocket.h; sourceTree = "<group>"; };
+		5AE51630254B24CB0004DB49 /* init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = SoundexStrings/lib/init.cpp; sourceTree = "<group>"; };
+		5AE51642254B24E40004DB49 /* testgraphics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testgraphics.cpp; path = SoundexStrings/lib/testgraphics.cpp; sourceTree = "<group>"; };
+		5AE51643254B24E40004DB49 /* sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sound.h; path = SoundexStrings/lib/sound.h; sourceTree = "<group>"; };
+		5AE51644254B24E50004DB49 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = SoundexStrings/lib/scanner.h; sourceTree = "<group>"; };
+		5AE51645254B24E50004DB49 /* sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sound.cpp; path = SoundexStrings/lib/sound.cpp; sourceTree = "<group>"; };
+		5AE51646254B24E50004DB49 /* scanner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = scanner.cpp; path = SoundexStrings/lib/scanner.cpp; sourceTree = "<group>"; };
+		5AE51647254B24E50004DB49 /* simpio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = simpio.cpp; path = SoundexStrings/lib/simpio.cpp; sourceTree = "<group>"; };
+		5AE51648254B24E50004DB49 /* random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = random.cpp; path = SoundexStrings/lib/random.cpp; sourceTree = "<group>"; };
+		5AE51649254B24E50004DB49 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector.h; path = SoundexStrings/lib/vector.h; sourceTree = "<group>"; };
+		5AE5164A254B24E50004DB49 /* simpio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = simpio.h; path = SoundexStrings/lib/simpio.h; sourceTree = "<group>"; };
+		5AE5164B254B24E50004DB49 /* SocketException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketException.h; path = SoundexStrings/lib/SocketException.h; sourceTree = "<group>"; };
+		5AE5164C254B24E50004DB49 /* strutils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = strutils.cpp; path = SoundexStrings/lib/strutils.cpp; sourceTree = "<group>"; };
+		5AE5164D254B24E50004DB49 /* testgraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testgraphics.h; path = SoundexStrings/lib/testgraphics.h; sourceTree = "<group>"; };
+		5AE5164E254B24E50004DB49 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stack.h; path = SoundexStrings/lib/stack.h; sourceTree = "<group>"; };
+		5AE5164F254B24E50004DB49 /* Socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = SoundexStrings/lib/Socket.h; sourceTree = "<group>"; };
+		5AE51650254B24E50004DB49 /* strutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strutils.h; path = SoundexStrings/lib/strutils.h; sourceTree = "<group>"; };
+		5AE51651254B24E50004DB49 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = random.h; path = SoundexStrings/lib/random.h; sourceTree = "<group>"; };
+		5AE51652254B24E50004DB49 /* Socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Socket.cpp; path = SoundexStrings/lib/Socket.cpp; sourceTree = "<group>"; };
+		5AE51665254B24FF0004DB49 /* set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = set.h; path = SoundexStrings/lib/private/set.h; sourceTree = "<group>"; };
+		5AE51666254B24FF0004DB49 /* bst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bst.cpp; path = SoundexStrings/lib/private/bst.cpp; sourceTree = "<group>"; };
+		5AE51667254B24FF0004DB49 /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = SoundexStrings/lib/private/vector.cpp; sourceTree = "<group>"; };
+		5AE51668254B25000004DB49 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = SoundexStrings/lib/private/scanner.h; sourceTree = "<group>"; };
+		5AE51669254B25000004DB49 /* graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = graphics.h; path = SoundexStrings/lib/private/graphics.h; sourceTree = "<group>"; };
+		5AE5166A254B25000004DB49 /* bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bst.h; path = SoundexStrings/lib/private/bst.h; sourceTree = "<group>"; };
+		5AE5166B254B25000004DB49 /* set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = set.cpp; path = SoundexStrings/lib/private/set.cpp; sourceTree = "<group>"; };
+		5AE5166C254B25000004DB49 /* map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = map.cpp; path = SoundexStrings/lib/private/map.cpp; sourceTree = "<group>"; };
+		5AE5166D254B25000004DB49 /* grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = grid.cpp; path = SoundexStrings/lib/private/grid.cpp; sourceTree = "<group>"; };
+		5AE5166E254B25000004DB49 /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = grid.h; path = SoundexStrings/lib/private/grid.h; sourceTree = "<group>"; };
+		5AE5166F254B25000004DB49 /* queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = queue.cpp; path = SoundexStrings/lib/private/queue.cpp; sourceTree = "<group>"; };
+		5AE51670254B25000004DB49 /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stack.cpp; path = SoundexStrings/lib/private/stack.cpp; sourceTree = "<group>"; };
+		5AE51671254B25000004DB49 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stack.h; path = SoundexStrings/lib/private/stack.h; sourceTree = "<group>"; };
+		5AE51672254B25000004DB49 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = queue.h; path = SoundexStrings/lib/private/queue.h; sourceTree = "<group>"; };
+		5AE51673254B25000004DB49 /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = map.h; path = SoundexStrings/lib/private/map.h; sourceTree = "<group>"; };
+		5AE51674254B25000004DB49 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector.h; path = SoundexStrings/lib/private/vector.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +131,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE51675254B25000004DB49 /* set.h in Frameworks */,
+				5AE51676254B25000004DB49 /* bst.cpp in Frameworks */,
+				5AE51677254B25000004DB49 /* vector.cpp in Frameworks */,
+				5AE51678254B25000004DB49 /* scanner.h in Frameworks */,
+				5AE51679254B25000004DB49 /* graphics.h in Frameworks */,
+				5AE5167A254B25000004DB49 /* bst.h in Frameworks */,
+				5AE5167B254B25000004DB49 /* set.cpp in Frameworks */,
+				5AE5167C254B25000004DB49 /* map.cpp in Frameworks */,
+				5AE5167D254B25000004DB49 /* grid.cpp in Frameworks */,
+				5AE5167E254B25000004DB49 /* grid.h in Frameworks */,
+				5AE5167F254B25000004DB49 /* queue.cpp in Frameworks */,
+				5AE51680254B25000004DB49 /* stack.cpp in Frameworks */,
+				5AE51681254B25000004DB49 /* stack.h in Frameworks */,
+				5AE51682254B25000004DB49 /* queue.h in Frameworks */,
+				5AE51683254B25000004DB49 /* map.h in Frameworks */,
+				5AE51684254B25000004DB49 /* vector.h in Frameworks */,
+				5AE51653254B24E50004DB49 /* testgraphics.cpp in Frameworks */,
+				5AE51654254B24E50004DB49 /* sound.h in Frameworks */,
+				5AE51655254B24E50004DB49 /* scanner.h in Frameworks */,
+				5AE51656254B24E50004DB49 /* sound.cpp in Frameworks */,
+				5AE51657254B24E50004DB49 /* scanner.cpp in Frameworks */,
+				5AE51658254B24E50004DB49 /* simpio.cpp in Frameworks */,
+				5AE51659254B24E50004DB49 /* random.cpp in Frameworks */,
+				5AE5165A254B24E50004DB49 /* vector.h in Frameworks */,
+				5AE5165B254B24E50004DB49 /* simpio.h in Frameworks */,
+				5AE5165C254B24E50004DB49 /* SocketException.h in Frameworks */,
+				5AE5165D254B24E50004DB49 /* strutils.cpp in Frameworks */,
+				5AE5165E254B24E50004DB49 /* testgraphics.h in Frameworks */,
+				5AE5165F254B24E50004DB49 /* stack.h in Frameworks */,
+				5AE51660254B24E50004DB49 /* Socket.h in Frameworks */,
+				5AE51661254B24E50004DB49 /* strutils.h in Frameworks */,
+				5AE51662254B24E50004DB49 /* random.h in Frameworks */,
+				5AE51663254B24E50004DB49 /* Socket.cpp in Frameworks */,
+				5AE51631254B24CB0004DB49 /* init.h in Frameworks */,
+				5AE51632254B24CB0004DB49 /* lexicon.cpp in Frameworks */,
+				5AE51633254B24CB0004DB49 /* lexicon.dat in Frameworks */,
+				5AE51634254B24CB0004DB49 /* lexicon.h in Frameworks */,
+				5AE51635254B24CB0004DB49 /* foreach.h in Frameworks */,
+				5AE51636254B24CB0004DB49 /* extgraph.cpp in Frameworks */,
+				5AE51637254B24CB0004DB49 /* graphics.cpp in Frameworks */,
+				5AE51638254B24CB0004DB49 /* genlib.h in Frameworks */,
+				5AE51639254B24CB0004DB49 /* extgraph.h in Frameworks */,
+				5AE5163A254B24CB0004DB49 /* genlib.cpp in Frameworks */,
+				5AE5163B254B24CB0004DB49 /* graphicsclient.h in Frameworks */,
+				5AE5163C254B24CB0004DB49 /* ClientSocket.cpp in Frameworks */,
+				5AE5163D254B24CB0004DB49 /* graphicsclient.cpp in Frameworks */,
+				5AE5163E254B24CB0004DB49 /* graphics.h in Frameworks */,
+				5AE5163F254B24CB0004DB49 /* ClientSocket.h in Frameworks */,
+				5AE51640254B24CB0004DB49 /* init.cpp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +191,7 @@
 			children = (
 				5AE516122549812A0004DB49 /* SoundexStrings */,
 				5AE516112549812A0004DB49 /* Products */,
+				5AE5161D254B24450004DB49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +210,62 @@
 				5AE516132549812A0004DB49 /* main.cpp */,
 			);
 			path = SoundexStrings;
+			sourceTree = "<group>";
+		};
+		5AE5161D254B24450004DB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE51666254B24FF0004DB49 /* bst.cpp */,
+				5AE5166A254B25000004DB49 /* bst.h */,
+				5AE51669254B25000004DB49 /* graphics.h */,
+				5AE5166D254B25000004DB49 /* grid.cpp */,
+				5AE5166E254B25000004DB49 /* grid.h */,
+				5AE5166C254B25000004DB49 /* map.cpp */,
+				5AE51673254B25000004DB49 /* map.h */,
+				5AE5166F254B25000004DB49 /* queue.cpp */,
+				5AE51672254B25000004DB49 /* queue.h */,
+				5AE51668254B25000004DB49 /* scanner.h */,
+				5AE5166B254B25000004DB49 /* set.cpp */,
+				5AE51665254B24FF0004DB49 /* set.h */,
+				5AE51670254B25000004DB49 /* stack.cpp */,
+				5AE51671254B25000004DB49 /* stack.h */,
+				5AE51667254B24FF0004DB49 /* vector.cpp */,
+				5AE51674254B25000004DB49 /* vector.h */,
+				5AE51648254B24E50004DB49 /* random.cpp */,
+				5AE51651254B24E50004DB49 /* random.h */,
+				5AE51646254B24E50004DB49 /* scanner.cpp */,
+				5AE51644254B24E50004DB49 /* scanner.h */,
+				5AE51647254B24E50004DB49 /* simpio.cpp */,
+				5AE5164A254B24E50004DB49 /* simpio.h */,
+				5AE51652254B24E50004DB49 /* Socket.cpp */,
+				5AE5164F254B24E50004DB49 /* Socket.h */,
+				5AE5164B254B24E50004DB49 /* SocketException.h */,
+				5AE51645254B24E50004DB49 /* sound.cpp */,
+				5AE51643254B24E40004DB49 /* sound.h */,
+				5AE5164E254B24E50004DB49 /* stack.h */,
+				5AE5164C254B24E50004DB49 /* strutils.cpp */,
+				5AE51650254B24E50004DB49 /* strutils.h */,
+				5AE51642254B24E40004DB49 /* testgraphics.cpp */,
+				5AE5164D254B24E50004DB49 /* testgraphics.h */,
+				5AE51649254B24E50004DB49 /* vector.h */,
+				5AE5162C254B24CB0004DB49 /* ClientSocket.cpp */,
+				5AE5162F254B24CB0004DB49 /* ClientSocket.h */,
+				5AE51626254B24CB0004DB49 /* extgraph.cpp */,
+				5AE51629254B24CB0004DB49 /* extgraph.h */,
+				5AE51625254B24CB0004DB49 /* foreach.h */,
+				5AE5162A254B24CB0004DB49 /* genlib.cpp */,
+				5AE51628254B24CB0004DB49 /* genlib.h */,
+				5AE51627254B24CB0004DB49 /* graphics.cpp */,
+				5AE5162E254B24CB0004DB49 /* graphics.h */,
+				5AE5162D254B24CB0004DB49 /* graphicsclient.cpp */,
+				5AE5162B254B24CB0004DB49 /* graphicsclient.h */,
+				5AE51630254B24CB0004DB49 /* init.cpp */,
+				5AE51621254B24CB0004DB49 /* init.h */,
+				5AE51622254B24CB0004DB49 /* lexicon.cpp */,
+				5AE51623254B24CB0004DB49 /* lexicon.dat */,
+				5AE51624254B24CB0004DB49 /* lexicon.h */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
