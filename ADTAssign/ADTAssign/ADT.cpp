@@ -16,7 +16,7 @@ int main() {
         std::cout << "0. Exit Application" << std::endl;
         std::cout << "1. Random Writer Program" << std::endl;
         std::cout << "2. Maze Program" << std::endl;
-        std::cout << "Choose one of the programs with number input: "
+        std::cout << "Choose one of the programs with number input: ";
         int userChoice = GetInteger(); // get integer input from user
         if (userChoice == 0) {
             exit(0); // exit program while returning 0
