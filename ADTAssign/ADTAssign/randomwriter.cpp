@@ -56,6 +56,9 @@ void GenerateRandomText(string seed);
 
 const int MAX_CHARS = 2000;
 
+// Map<Vector<char> > seedMap; // declare a Map with Vector seedMap
+Vector<string> seedWithDupes;
+
 int orderK; // Markov Order - will be taken from user Input
 
 /*  Define the main function as the Random Writer
