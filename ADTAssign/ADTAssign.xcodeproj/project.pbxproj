@@ -48,6 +48,7 @@
 		5AE51799254FF5520004DB49 /* gobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51780254FF5520004DB49 /* gobjects.cpp */; };
 		5AE5179A254FF5520004DB49 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51781254FF5520004DB49 /* error.cpp */; };
 		5AE5179B254FF5520004DB49 /* gwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51783254FF5520004DB49 /* gwindow.cpp */; };
+		5AE5179E254FFC5C0004DB49 /* ADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5179D254FFC5C0004DB49 /* ADT.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +135,7 @@
 		5AE51781254FF5520004DB49 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
 		5AE51782254FF5520004DB49 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
 		5AE51783254FF5520004DB49 /* gwindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gwindow.cpp; sourceTree = "<group>"; };
+		5AE5179D254FFC5C0004DB49 /* ADT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ADT.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				5AE516BC254F24730004DB49 /* main.cpp */,
 				5AE516CE254FEF270004DB49 /* randomwriter.cpp */,
 				5AE516CF254FEF270004DB49 /* randomwriter.hpp */,
+				5AE5179D254FFC5C0004DB49 /* ADT.cpp */,
 			);
 			path = ADTAssign;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				5AE5179B254FF5520004DB49 /* gwindow.cpp in Sources */,
 				5AE51794254FF5520004DB49 /* point.cpp in Sources */,
 				5AE51784254FF5520004DB49 /* main.cpp in Sources */,
+				5AE5179E254FFC5C0004DB49 /* ADT.cpp in Sources */,
 				5AE5175C254FF41D0004DB49 /* ClientSocket.cpp in Sources */,
 				5AE51797254FF5520004DB49 /* sound.cpp in Sources */,
 				5AE51787254FF5520004DB49 /* filelib.cpp in Sources */,
