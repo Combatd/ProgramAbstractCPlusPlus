@@ -34,7 +34,29 @@
 #include "vector.h"
 #include "random.h"
 
+/*
+ Map and Vector are just what you need to store the model information. The keys into the map
+ are the possible seeds (e.g. if order is 2, each key is a 2-character sequence found in the source
+ text). The associated value is a vector of all the characters that follow that seed in the source
+ text. That vector can, and likely will, contain a lot of duplicate entries. Duplicates represent
+ higher probability transitions from this Markov state. Explicitly storing duplicates is the easiest
+ strategy and makes it simple to choose a random character from the correct frequency
+ distribution. A more space-efficient strategy would store each character at most once, with its
+ frequency count. However, it's a bit more awkward to code this way. You are welcome to do
+ either, but if you choose the latter, please take extra care to keep the code clean.
+ • Determining which seed(s) occurs most frequently in the source can be done by iterating or
+ mapping over the entries once you have finished the analysis.
+ • For reading a file one character at a time, use the get member function for ifstream.
+ */
+
+void ParseInputText(ifstream &in); // pass by reference
+void CreateSeedMap(string &line); // pass by reference
+string GetInitialSeed();
+void GenerateRandomText(string seed);
+
 const int MAX_CHARS = 2000;
+
+int orderK; // Markov Order - will be taken from user Input
 
 /*  Define the main function as the Random Writer
     It takes input text file and markov number from user.
@@ -43,8 +65,31 @@ const int MAX_CHARS = 2000;
 
 void RandomWriter() {
     Randomize();
-    std::ifstream in;
+    ifstream in;
     while (true) {
         std::cout << "Enter the filename of the source text: ";
+        string fileName = GetLine();
+        in.open(fileName.c_str()); // convert C string to type string
+        if (!in.fail()) {
+            break; // we will break out of this loop if file opened successfully
+        }
+        in.clear(); // clear input stream
+        std::cout << "File could not be opened" << "\n";
     }
+    while (true) {
+        std::cout << "What is the order of analysis? Enter a number from 1 to 10: ";
+        orderK = GetInteger(); // get integer from 1 to 10
+        if (orderK >= 1 && orderK <= 10) {
+            break;
+        }
+        std::cout << "Invalid: Number must be from 1 to 10" << "\n";
+    }
+    
+    ParseInputText(in);
+    in.close(); // close the input stream
+    string seed = GetInitialSeed(); // return random number
+    GenerateRandomText(seed);
+    // Clear the containers for later invocations of RandomWriter()
+    // seedMap with Map Vector is here
+    // seeds with duplicates for finding most common as a Vector of strings here
 }

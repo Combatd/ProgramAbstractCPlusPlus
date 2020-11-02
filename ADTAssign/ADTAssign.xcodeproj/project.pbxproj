@@ -92,7 +92,6 @@
 		5AE51743254FF41C0004DB49 /* strutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strutils.h; path = ../../lib/strutils.h; sourceTree = "<group>"; };
 		5AE51744254FF41C0004DB49 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random.h; path = ../../lib/random.h; sourceTree = "<group>"; };
 		5AE51745254FF41C0004DB49 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = ../../lib/Socket.h; sourceTree = "<group>"; };
-		5AE51746254FF41C0004DB49 /* foreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foreach.h; path = ../../lib/foreach.h; sourceTree = "<group>"; };
 		5AE51747254FF41D0004DB49 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = ../../lib/sound.h; sourceTree = "<group>"; };
 		5AE51748254FF41D0004DB49 /* scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scanner.cpp; path = ../../lib/scanner.cpp; sourceTree = "<group>"; };
 		5AE51749254FF41D0004DB49 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = ../../lib/init.h; sourceTree = "<group>"; };
@@ -202,7 +201,6 @@
 				5AE5173F254FF41C0004DB49 /* ClientSocket.h */,
 				5AE5173B254FF41C0004DB49 /* extgraph.cpp */,
 				5AE5173A254FF41C0004DB49 /* extgraph.h */,
-				5AE51746254FF41C0004DB49 /* foreach.h */,
 				5AE51731254FF41C0004DB49 /* genlib.cpp */,
 				5AE51737254FF41C0004DB49 /* genlib.h */,
 				5AE51738254FF41C0004DB49 /* graphics.cpp */,
