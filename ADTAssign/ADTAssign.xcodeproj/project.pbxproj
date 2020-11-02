@@ -50,16 +50,6 @@
 		5AE5179B254FF5520004DB49 /* gwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51783254FF5520004DB49 /* gwindow.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5AE5172F254FF3950004DB49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5AE516DE254FF3140004DB49;
-			remoteInfo = StanfordCPP;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5AE516B7254F24730004DB49 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -80,7 +70,6 @@
 		5AE516CE254FEF270004DB49 /* randomwriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = randomwriter.cpp; sourceTree = "<group>"; };
 		5AE516CF254FEF270004DB49 /* randomwriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = randomwriter.hpp; sourceTree = "<group>"; };
 		5AE516D4254FF0E70004DB49 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../lib; sourceTree = "<group>"; };
-		5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StanfordCPP.xcodeproj; path = ../../StanfordCPP/StanfordCPP.xcodeproj; sourceTree = "<group>"; };
 		5AE51731254FF41C0004DB49 /* genlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = genlib.cpp; path = ../../lib/genlib.cpp; sourceTree = "<group>"; };
 		5AE51732254FF41C0004DB49 /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = ../../lib/init.cpp; sourceTree = "<group>"; };
 		5AE51733254FF41C0004DB49 /* testgraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testgraphics.cpp; path = ../../lib/testgraphics.cpp; sourceTree = "<group>"; };
@@ -242,7 +231,6 @@
 				5AE51733254FF41C0004DB49 /* testgraphics.cpp */,
 				5AE51741254FF41C0004DB49 /* testgraphics.h */,
 				5AE51736254FF41C0004DB49 /* vector.h */,
-				5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */,
 				5AE516C5254F24940004DB49 /* maze.cpp */,
 				5AE516C4254F24940004DB49 /* maze.h */,
 				5AE516BC254F24730004DB49 /* main.cpp */,
@@ -258,14 +246,6 @@
 				5AE516D4254FF0E70004DB49 /* lib */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5AE5172C254FF3950004DB49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5AE51730254FF3950004DB49 /* libStanfordCPP.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,28 +292,12 @@
 			mainGroup = 5AE516B0254F24730004DB49;
 			productRefGroup = 5AE516BA254F24730004DB49 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5AE5172C254FF3950004DB49 /* Products */;
-					ProjectRef = 5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5AE516B8254F24730004DB49 /* ADTAssign */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5AE51730254FF3950004DB49 /* libStanfordCPP.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libStanfordCPP.a;
-			remoteRef = 5AE5172F254FF3950004DB49 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AE516B5254F24730004DB49 /* Sources */ = {

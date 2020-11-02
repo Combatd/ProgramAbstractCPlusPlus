@@ -33,3 +33,18 @@
 #include "map.h"
 #include "vector.h"
 #include "random.h"
+
+const int MAX_CHARS = 2000;
+
+/*  Define the main function as the Random Writer
+    It takes input text file and markov number from user.
+    Generates a maximum of characters MAX_CHARS.
+*/
+
+void RandomWriter() {
+    Randomize();
+    std::ifstream in;
+    while (true) {
+        std::cout << "Enter the filename of the source text: ";
+    }
+}
