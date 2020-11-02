@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5AE516BD254F24730004DB49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516BC254F24730004DB49 /* main.cpp */; };
 		5AE516C6254F24940004DB49 /* maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516C5254F24940004DB49 /* maze.cpp */; };
+		5AE516D0254FEF270004DB49 /* randomwriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516CE254FEF270004DB49 /* randomwriter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		5AE516BC254F24730004DB49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5AE516C4254F24940004DB49 /* maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maze.h; sourceTree = "<group>"; };
 		5AE516C5254F24940004DB49 /* maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maze.cpp; sourceTree = "<group>"; };
+		5AE516CC254FEEF80004DB49 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../lib; sourceTree = "<group>"; };
+		5AE516CE254FEF270004DB49 /* randomwriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = randomwriter.cpp; sourceTree = "<group>"; };
+		5AE516CF254FEF270004DB49 /* randomwriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = randomwriter.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,12 @@
 		5AE516BB254F24730004DB49 /* ADTAssign */ = {
 			isa = PBXGroup;
 			children = (
+				5AE516CC254FEEF80004DB49 /* lib */,
 				5AE516C5254F24940004DB49 /* maze.cpp */,
 				5AE516C4254F24940004DB49 /* maze.h */,
 				5AE516BC254F24730004DB49 /* main.cpp */,
+				5AE516CE254FEF270004DB49 /* randomwriter.cpp */,
+				5AE516CF254FEF270004DB49 /* randomwriter.hpp */,
 			);
 			path = ADTAssign;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE516D0254FEF270004DB49 /* randomwriter.cpp in Sources */,
 				5AE516C6254F24940004DB49 /* maze.cpp in Sources */,
 				5AE516BD254F24730004DB49 /* main.cpp in Sources */,
 			);
