@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+void RandomWriter();
+
 #endif /* randomwriter_hpp */
