@@ -24,4 +24,12 @@
  and the process repeats until you have 2000 characters.
  */
 
+// Need Vector and Map for this application
 #include "randomwriter.hpp"
+#include <iostream>
+#include "genlib.h"
+#include <fstream>
+#include "simpio.h"
+#include "map.h"
+#include "vector.h"
+#include "random.h"

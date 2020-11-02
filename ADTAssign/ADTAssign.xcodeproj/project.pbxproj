@@ -24,6 +24,30 @@
 		5AE5175E254FF41D0004DB49 /* simpio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5174F254FF41D0004DB49 /* simpio.cpp */; };
 		5AE5175F254FF41D0004DB49 /* graphicsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51750254FF41D0004DB49 /* graphicsclient.cpp */; };
 		5AE51760254FF41D0004DB49 /* lexicon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51752254FF41D0004DB49 /* lexicon.cpp */; };
+		5AE51784254FF5520004DB49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5176B254FF5500004DB49 /* main.cpp */; };
+		5AE51785254FF5520004DB49 /* gmath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5176C254FF5500004DB49 /* gmath.cpp */; };
+		5AE51786254FF5520004DB49 /* direction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5176D254FF5510004DB49 /* direction.cpp */; };
+		5AE51787254FF5520004DB49 /* filelib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5176E254FF5510004DB49 /* filelib.cpp */; };
+		5AE51788254FF5520004DB49 /* startup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5176F254FF5510004DB49 /* startup.cpp */; };
+		5AE51789254FF5520004DB49 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51770254FF5510004DB49 /* random.cpp */; };
+		5AE5178A254FF5520004DB49 /* strlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51771254FF5510004DB49 /* strlib.cpp */; };
+		5AE5178B254FF5520004DB49 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51772254FF5510004DB49 /* platform.cpp */; };
+		5AE5178C254FF5520004DB49 /* gtimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51773254FF5510004DB49 /* gtimer.cpp */; };
+		5AE5178D254FF5520004DB49 /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51774254FF5510004DB49 /* console.cpp */; };
+		5AE5178E254FF5520004DB49 /* gevents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51775254FF5510004DB49 /* gevents.cpp */; };
+		5AE5178F254FF5520004DB49 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51776254FF5510004DB49 /* thread.cpp */; };
+		5AE51790254FF5520004DB49 /* gtypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51777254FF5510004DB49 /* gtypes.cpp */; };
+		5AE51791254FF5520004DB49 /* simpio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51778254FF5510004DB49 /* simpio.cpp */; };
+		5AE51792254FF5520004DB49 /* tplatform-posix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51779254FF5510004DB49 /* tplatform-posix.cpp */; };
+		5AE51793254FF5520004DB49 /* tokenscanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177A254FF5510004DB49 /* tokenscanner.cpp */; };
+		5AE51794254FF5520004DB49 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177B254FF5510004DB49 /* point.cpp */; };
+		5AE51795254FF5520004DB49 /* lexicon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177C254FF5510004DB49 /* lexicon.cpp */; };
+		5AE51796254FF5520004DB49 /* hashmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177D254FF5510004DB49 /* hashmap.cpp */; };
+		5AE51797254FF5520004DB49 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177E254FF5520004DB49 /* sound.cpp */; };
+		5AE51798254FF5520004DB49 /* ginteractors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5177F254FF5520004DB49 /* ginteractors.cpp */; };
+		5AE51799254FF5520004DB49 /* gobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51780254FF5520004DB49 /* gobjects.cpp */; };
+		5AE5179A254FF5520004DB49 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51781254FF5520004DB49 /* error.cpp */; };
+		5AE5179B254FF5520004DB49 /* gwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51783254FF5520004DB49 /* gwindow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +119,32 @@
 		5AE51767254FF4AB0004DB49 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
 		5AE51768254FF4AB0004DB49 /* gtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtimer.h; sourceTree = "<group>"; };
 		5AE51769254FF4AB0004DB49 /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		5AE5176A254FF5340004DB49 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		5AE5176B254FF5500004DB49 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../../Downloads/cpplib/src/main.cpp; sourceTree = "<group>"; };
+		5AE5176C254FF5500004DB49 /* gmath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmath.cpp; sourceTree = "<group>"; };
+		5AE5176D254FF5510004DB49 /* direction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = direction.cpp; sourceTree = "<group>"; };
+		5AE5176E254FF5510004DB49 /* filelib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filelib.cpp; sourceTree = "<group>"; };
+		5AE5176F254FF5510004DB49 /* startup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = startup.cpp; sourceTree = "<group>"; };
+		5AE51770254FF5510004DB49 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		5AE51771254FF5510004DB49 /* strlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strlib.cpp; sourceTree = "<group>"; };
+		5AE51772254FF5510004DB49 /* platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
+		5AE51773254FF5510004DB49 /* gtimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtimer.cpp; sourceTree = "<group>"; };
+		5AE51774254FF5510004DB49 /* console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = console.cpp; sourceTree = "<group>"; };
+		5AE51775254FF5510004DB49 /* gevents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gevents.cpp; sourceTree = "<group>"; };
+		5AE51776254FF5510004DB49 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		5AE51777254FF5510004DB49 /* gtypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtypes.cpp; sourceTree = "<group>"; };
+		5AE51778254FF5510004DB49 /* simpio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simpio.cpp; sourceTree = "<group>"; };
+		5AE51779254FF5510004DB49 /* tplatform-posix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "tplatform-posix.cpp"; sourceTree = "<group>"; };
+		5AE5177A254FF5510004DB49 /* tokenscanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tokenscanner.cpp; sourceTree = "<group>"; };
+		5AE5177B254FF5510004DB49 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		5AE5177C254FF5510004DB49 /* lexicon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexicon.cpp; sourceTree = "<group>"; };
+		5AE5177D254FF5510004DB49 /* hashmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashmap.cpp; sourceTree = "<group>"; };
+		5AE5177E254FF5520004DB49 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
+		5AE5177F254FF5520004DB49 /* ginteractors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ginteractors.cpp; sourceTree = "<group>"; };
+		5AE51780254FF5520004DB49 /* gobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gobjects.cpp; sourceTree = "<group>"; };
+		5AE51781254FF5520004DB49 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		5AE51782254FF5520004DB49 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		5AE51783254FF5520004DB49 /* gwindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gwindow.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +178,31 @@
 		5AE516BB254F24730004DB49 /* ADTAssign */ = {
 			isa = PBXGroup;
 			children = (
+				5AE51774254FF5510004DB49 /* console.cpp */,
+				5AE5176D254FF5510004DB49 /* direction.cpp */,
+				5AE51781254FF5520004DB49 /* error.cpp */,
+				5AE5176E254FF5510004DB49 /* filelib.cpp */,
+				5AE51775254FF5510004DB49 /* gevents.cpp */,
+				5AE5177F254FF5520004DB49 /* ginteractors.cpp */,
+				5AE5176C254FF5500004DB49 /* gmath.cpp */,
+				5AE51780254FF5520004DB49 /* gobjects.cpp */,
+				5AE51773254FF5510004DB49 /* gtimer.cpp */,
+				5AE51777254FF5510004DB49 /* gtypes.cpp */,
+				5AE51783254FF5520004DB49 /* gwindow.cpp */,
+				5AE5177D254FF5510004DB49 /* hashmap.cpp */,
+				5AE5177C254FF5510004DB49 /* lexicon.cpp */,
+				5AE5176B254FF5500004DB49 /* main.cpp */,
+				5AE51772254FF5510004DB49 /* platform.cpp */,
+				5AE5177B254FF5510004DB49 /* point.cpp */,
+				5AE51770254FF5510004DB49 /* random.cpp */,
+				5AE51778254FF5510004DB49 /* simpio.cpp */,
+				5AE5177E254FF5520004DB49 /* sound.cpp */,
+				5AE5176F254FF5510004DB49 /* startup.cpp */,
+				5AE51771254FF5510004DB49 /* strlib.cpp */,
+				5AE51782254FF5520004DB49 /* tests */,
+				5AE51776254FF5510004DB49 /* thread.cpp */,
+				5AE5177A254FF5510004DB49 /* tokenscanner.cpp */,
+				5AE51779254FF5510004DB49 /* tplatform-posix.cpp */,
 				5AE51766254FF4AA0004DB49 /* gobjects.h */,
 				5AE51767254FF4AB0004DB49 /* graph.h */,
 				5AE51769254FF4AB0004DB49 /* grid.h */,
@@ -148,6 +223,7 @@
 				5AE51752254FF41D0004DB49 /* lexicon.cpp */,
 				5AE5174C254FF41D0004DB49 /* lexicon.dat */,
 				5AE51739254FF41C0004DB49 /* lexicon.h */,
+				5AE5176A254FF5340004DB49 /* map.h */,
 				5AE5173C254FF41C0004DB49 /* private */,
 				5AE5174A254FF41D0004DB49 /* random.cpp */,
 				5AE51744254FF41C0004DB49 /* random.h */,
@@ -264,23 +340,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE51798254FF5520004DB49 /* ginteractors.cpp in Sources */,
+				5AE51785254FF5520004DB49 /* gmath.cpp in Sources */,
 				5AE51758254FF41D0004DB49 /* extgraph.cpp in Sources */,
 				5AE5175D254FF41D0004DB49 /* sound.cpp in Sources */,
+				5AE5179A254FF5520004DB49 /* error.cpp in Sources */,
+				5AE5178A254FF5520004DB49 /* strlib.cpp in Sources */,
+				5AE5179B254FF5520004DB49 /* gwindow.cpp in Sources */,
+				5AE51794254FF5520004DB49 /* point.cpp in Sources */,
+				5AE51784254FF5520004DB49 /* main.cpp in Sources */,
 				5AE5175C254FF41D0004DB49 /* ClientSocket.cpp in Sources */,
+				5AE51797254FF5520004DB49 /* sound.cpp in Sources */,
+				5AE51787254FF5520004DB49 /* filelib.cpp in Sources */,
+				5AE5178F254FF5520004DB49 /* thread.cpp in Sources */,
 				5AE5175F254FF41D0004DB49 /* graphicsclient.cpp in Sources */,
 				5AE51760254FF41D0004DB49 /* lexicon.cpp in Sources */,
+				5AE5178D254FF5520004DB49 /* console.cpp in Sources */,
 				5AE51755254FF41D0004DB49 /* testgraphics.cpp in Sources */,
 				5AE5175A254FF41D0004DB49 /* scanner.cpp in Sources */,
 				5AE51756254FF41D0004DB49 /* Socket.cpp in Sources */,
 				5AE51753254FF41D0004DB49 /* genlib.cpp in Sources */,
 				5AE516D0254FEF270004DB49 /* randomwriter.cpp in Sources */,
 				5AE5175E254FF41D0004DB49 /* simpio.cpp in Sources */,
+				5AE5178C254FF5520004DB49 /* gtimer.cpp in Sources */,
 				5AE51759254FF41D0004DB49 /* strutils.cpp in Sources */,
 				5AE516C6254F24940004DB49 /* maze.cpp in Sources */,
+				5AE51793254FF5520004DB49 /* tokenscanner.cpp in Sources */,
+				5AE51786254FF5520004DB49 /* direction.cpp in Sources */,
+				5AE51790254FF5520004DB49 /* gtypes.cpp in Sources */,
+				5AE51799254FF5520004DB49 /* gobjects.cpp in Sources */,
+				5AE5178E254FF5520004DB49 /* gevents.cpp in Sources */,
+				5AE51795254FF5520004DB49 /* lexicon.cpp in Sources */,
+				5AE51796254FF5520004DB49 /* hashmap.cpp in Sources */,
+				5AE51789254FF5520004DB49 /* random.cpp in Sources */,
+				5AE5178B254FF5520004DB49 /* platform.cpp in Sources */,
 				5AE5175B254FF41D0004DB49 /* random.cpp in Sources */,
 				5AE51754254FF41D0004DB49 /* init.cpp in Sources */,
 				5AE51757254FF41D0004DB49 /* graphics.cpp in Sources */,
 				5AE516BD254F24730004DB49 /* main.cpp in Sources */,
+				5AE51792254FF5520004DB49 /* tplatform-posix.cpp in Sources */,
+				5AE51791254FF5520004DB49 /* simpio.cpp in Sources */,
+				5AE51788254FF5520004DB49 /* startup.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
