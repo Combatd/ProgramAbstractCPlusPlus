@@ -10,7 +10,31 @@
 		5AE516BD254F24730004DB49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516BC254F24730004DB49 /* main.cpp */; };
 		5AE516C6254F24940004DB49 /* maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516C5254F24940004DB49 /* maze.cpp */; };
 		5AE516D0254FEF270004DB49 /* randomwriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE516CE254FEF270004DB49 /* randomwriter.cpp */; };
+		5AE51753254FF41D0004DB49 /* genlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51731254FF41C0004DB49 /* genlib.cpp */; };
+		5AE51754254FF41D0004DB49 /* init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51732254FF41C0004DB49 /* init.cpp */; };
+		5AE51755254FF41D0004DB49 /* testgraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51733254FF41C0004DB49 /* testgraphics.cpp */; };
+		5AE51756254FF41D0004DB49 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51734254FF41C0004DB49 /* Socket.cpp */; };
+		5AE51757254FF41D0004DB49 /* graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51738254FF41C0004DB49 /* graphics.cpp */; };
+		5AE51758254FF41D0004DB49 /* extgraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5173B254FF41C0004DB49 /* extgraph.cpp */; };
+		5AE51759254FF41D0004DB49 /* strutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51740254FF41C0004DB49 /* strutils.cpp */; };
+		5AE5175A254FF41D0004DB49 /* scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51748254FF41D0004DB49 /* scanner.cpp */; };
+		5AE5175B254FF41D0004DB49 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5174A254FF41D0004DB49 /* random.cpp */; };
+		5AE5175C254FF41D0004DB49 /* ClientSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5174B254FF41D0004DB49 /* ClientSocket.cpp */; };
+		5AE5175D254FF41D0004DB49 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5174E254FF41D0004DB49 /* sound.cpp */; };
+		5AE5175E254FF41D0004DB49 /* simpio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5174F254FF41D0004DB49 /* simpio.cpp */; };
+		5AE5175F254FF41D0004DB49 /* graphicsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51750254FF41D0004DB49 /* graphicsclient.cpp */; };
+		5AE51760254FF41D0004DB49 /* lexicon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51752254FF41D0004DB49 /* lexicon.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE5172F254FF3950004DB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AE516DE254FF3140004DB49;
+			remoteInfo = StanfordCPP;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5AE516B7254F24730004DB49 /* CopyFiles */ = {
@@ -29,9 +53,48 @@
 		5AE516BC254F24730004DB49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5AE516C4254F24940004DB49 /* maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maze.h; sourceTree = "<group>"; };
 		5AE516C5254F24940004DB49 /* maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maze.cpp; sourceTree = "<group>"; };
-		5AE516CC254FEEF80004DB49 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../lib; sourceTree = "<group>"; };
 		5AE516CE254FEF270004DB49 /* randomwriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = randomwriter.cpp; sourceTree = "<group>"; };
 		5AE516CF254FEF270004DB49 /* randomwriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = randomwriter.hpp; sourceTree = "<group>"; };
+		5AE516D4254FF0E70004DB49 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../lib; sourceTree = "<group>"; };
+		5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StanfordCPP.xcodeproj; path = ../../StanfordCPP/StanfordCPP.xcodeproj; sourceTree = "<group>"; };
+		5AE51731254FF41C0004DB49 /* genlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = genlib.cpp; path = ../../lib/genlib.cpp; sourceTree = "<group>"; };
+		5AE51732254FF41C0004DB49 /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = ../../lib/init.cpp; sourceTree = "<group>"; };
+		5AE51733254FF41C0004DB49 /* testgraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testgraphics.cpp; path = ../../lib/testgraphics.cpp; sourceTree = "<group>"; };
+		5AE51734254FF41C0004DB49 /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Socket.cpp; path = ../../lib/Socket.cpp; sourceTree = "<group>"; };
+		5AE51735254FF41C0004DB49 /* graphicsclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphicsclient.h; path = ../../lib/graphicsclient.h; sourceTree = "<group>"; };
+		5AE51736254FF41C0004DB49 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../lib/vector.h; sourceTree = "<group>"; };
+		5AE51737254FF41C0004DB49 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = genlib.h; path = ../../lib/genlib.h; sourceTree = "<group>"; };
+		5AE51738254FF41C0004DB49 /* graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graphics.cpp; path = ../../lib/graphics.cpp; sourceTree = "<group>"; };
+		5AE51739254FF41C0004DB49 /* lexicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lexicon.h; path = ../../lib/lexicon.h; sourceTree = "<group>"; };
+		5AE5173A254FF41C0004DB49 /* extgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extgraph.h; path = ../../lib/extgraph.h; sourceTree = "<group>"; };
+		5AE5173B254FF41C0004DB49 /* extgraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = extgraph.cpp; path = ../../lib/extgraph.cpp; sourceTree = "<group>"; };
+		5AE5173C254FF41C0004DB49 /* private */ = {isa = PBXFileReference; lastKnownFileType = folder; name = private; path = ../../lib/private; sourceTree = "<group>"; };
+		5AE5173D254FF41C0004DB49 /* SocketException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketException.h; path = ../../lib/SocketException.h; sourceTree = "<group>"; };
+		5AE5173E254FF41C0004DB49 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ../../lib/stack.h; sourceTree = "<group>"; };
+		5AE5173F254FF41C0004DB49 /* ClientSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientSocket.h; path = ../../lib/ClientSocket.h; sourceTree = "<group>"; };
+		5AE51740254FF41C0004DB49 /* strutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strutils.cpp; path = ../../lib/strutils.cpp; sourceTree = "<group>"; };
+		5AE51741254FF41C0004DB49 /* testgraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testgraphics.h; path = ../../lib/testgraphics.h; sourceTree = "<group>"; };
+		5AE51742254FF41C0004DB49 /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = ../../lib/scanner.h; sourceTree = "<group>"; };
+		5AE51743254FF41C0004DB49 /* strutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strutils.h; path = ../../lib/strutils.h; sourceTree = "<group>"; };
+		5AE51744254FF41C0004DB49 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random.h; path = ../../lib/random.h; sourceTree = "<group>"; };
+		5AE51745254FF41C0004DB49 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = ../../lib/Socket.h; sourceTree = "<group>"; };
+		5AE51746254FF41C0004DB49 /* foreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foreach.h; path = ../../lib/foreach.h; sourceTree = "<group>"; };
+		5AE51747254FF41D0004DB49 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = ../../lib/sound.h; sourceTree = "<group>"; };
+		5AE51748254FF41D0004DB49 /* scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scanner.cpp; path = ../../lib/scanner.cpp; sourceTree = "<group>"; };
+		5AE51749254FF41D0004DB49 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = ../../lib/init.h; sourceTree = "<group>"; };
+		5AE5174A254FF41D0004DB49 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random.cpp; path = ../../lib/random.cpp; sourceTree = "<group>"; };
+		5AE5174B254FF41D0004DB49 /* ClientSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClientSocket.cpp; path = ../../lib/ClientSocket.cpp; sourceTree = "<group>"; };
+		5AE5174C254FF41D0004DB49 /* lexicon.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = lexicon.dat; path = ../../lib/lexicon.dat; sourceTree = "<group>"; };
+		5AE5174D254FF41D0004DB49 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphics.h; path = ../../lib/graphics.h; sourceTree = "<group>"; };
+		5AE5174E254FF41D0004DB49 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sound.cpp; path = ../../lib/sound.cpp; sourceTree = "<group>"; };
+		5AE5174F254FF41D0004DB49 /* simpio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = simpio.cpp; path = ../../lib/simpio.cpp; sourceTree = "<group>"; };
+		5AE51750254FF41D0004DB49 /* graphicsclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graphicsclient.cpp; path = ../../lib/graphicsclient.cpp; sourceTree = "<group>"; };
+		5AE51751254FF41D0004DB49 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simpio.h; path = ../../lib/simpio.h; sourceTree = "<group>"; };
+		5AE51752254FF41D0004DB49 /* lexicon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lexicon.cpp; path = ../../lib/lexicon.cpp; sourceTree = "<group>"; };
+		5AE51766254FF4AA0004DB49 /* gobjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gobjects.h; sourceTree = "<group>"; };
+		5AE51767254FF4AB0004DB49 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		5AE51768254FF4AB0004DB49 /* gtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtimer.h; sourceTree = "<group>"; };
+		5AE51769254FF4AB0004DB49 /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +113,7 @@
 			children = (
 				5AE516BB254F24730004DB49 /* ADTAssign */,
 				5AE516BA254F24730004DB49 /* Products */,
+				5AE516D3254FF0E70004DB49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +128,45 @@
 		5AE516BB254F24730004DB49 /* ADTAssign */ = {
 			isa = PBXGroup;
 			children = (
-				5AE516CC254FEEF80004DB49 /* lib */,
+				5AE51766254FF4AA0004DB49 /* gobjects.h */,
+				5AE51767254FF4AB0004DB49 /* graph.h */,
+				5AE51769254FF4AB0004DB49 /* grid.h */,
+				5AE51768254FF4AB0004DB49 /* gtimer.h */,
+				5AE5174B254FF41D0004DB49 /* ClientSocket.cpp */,
+				5AE5173F254FF41C0004DB49 /* ClientSocket.h */,
+				5AE5173B254FF41C0004DB49 /* extgraph.cpp */,
+				5AE5173A254FF41C0004DB49 /* extgraph.h */,
+				5AE51746254FF41C0004DB49 /* foreach.h */,
+				5AE51731254FF41C0004DB49 /* genlib.cpp */,
+				5AE51737254FF41C0004DB49 /* genlib.h */,
+				5AE51738254FF41C0004DB49 /* graphics.cpp */,
+				5AE5174D254FF41D0004DB49 /* graphics.h */,
+				5AE51750254FF41D0004DB49 /* graphicsclient.cpp */,
+				5AE51735254FF41C0004DB49 /* graphicsclient.h */,
+				5AE51732254FF41C0004DB49 /* init.cpp */,
+				5AE51749254FF41D0004DB49 /* init.h */,
+				5AE51752254FF41D0004DB49 /* lexicon.cpp */,
+				5AE5174C254FF41D0004DB49 /* lexicon.dat */,
+				5AE51739254FF41C0004DB49 /* lexicon.h */,
+				5AE5173C254FF41C0004DB49 /* private */,
+				5AE5174A254FF41D0004DB49 /* random.cpp */,
+				5AE51744254FF41C0004DB49 /* random.h */,
+				5AE51748254FF41D0004DB49 /* scanner.cpp */,
+				5AE51742254FF41C0004DB49 /* scanner.h */,
+				5AE5174F254FF41D0004DB49 /* simpio.cpp */,
+				5AE51751254FF41D0004DB49 /* simpio.h */,
+				5AE51734254FF41C0004DB49 /* Socket.cpp */,
+				5AE51745254FF41C0004DB49 /* Socket.h */,
+				5AE5173D254FF41C0004DB49 /* SocketException.h */,
+				5AE5174E254FF41D0004DB49 /* sound.cpp */,
+				5AE51747254FF41D0004DB49 /* sound.h */,
+				5AE5173E254FF41C0004DB49 /* stack.h */,
+				5AE51740254FF41C0004DB49 /* strutils.cpp */,
+				5AE51743254FF41C0004DB49 /* strutils.h */,
+				5AE51733254FF41C0004DB49 /* testgraphics.cpp */,
+				5AE51741254FF41C0004DB49 /* testgraphics.h */,
+				5AE51736254FF41C0004DB49 /* vector.h */,
+				5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */,
 				5AE516C5254F24940004DB49 /* maze.cpp */,
 				5AE516C4254F24940004DB49 /* maze.h */,
 				5AE516BC254F24730004DB49 /* main.cpp */,
@@ -72,6 +174,22 @@
 				5AE516CF254FEF270004DB49 /* randomwriter.hpp */,
 			);
 			path = ADTAssign;
+			sourceTree = "<group>";
+		};
+		5AE516D3254FF0E70004DB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE516D4254FF0E70004DB49 /* lib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AE5172C254FF3950004DB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE51730254FF3950004DB49 /* libStanfordCPP.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +236,12 @@
 			mainGroup = 5AE516B0254F24730004DB49;
 			productRefGroup = 5AE516BA254F24730004DB49 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AE5172C254FF3950004DB49 /* Products */;
+					ProjectRef = 5AE5172B254FF3950004DB49 /* StanfordCPP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5AE516B8254F24730004DB49 /* ADTAssign */,
@@ -125,13 +249,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5AE51730254FF3950004DB49 /* libStanfordCPP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStanfordCPP.a;
+			remoteRef = 5AE5172F254FF3950004DB49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AE516B5254F24730004DB49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE51758254FF41D0004DB49 /* extgraph.cpp in Sources */,
+				5AE5175D254FF41D0004DB49 /* sound.cpp in Sources */,
+				5AE5175C254FF41D0004DB49 /* ClientSocket.cpp in Sources */,
+				5AE5175F254FF41D0004DB49 /* graphicsclient.cpp in Sources */,
+				5AE51760254FF41D0004DB49 /* lexicon.cpp in Sources */,
+				5AE51755254FF41D0004DB49 /* testgraphics.cpp in Sources */,
+				5AE5175A254FF41D0004DB49 /* scanner.cpp in Sources */,
+				5AE51756254FF41D0004DB49 /* Socket.cpp in Sources */,
+				5AE51753254FF41D0004DB49 /* genlib.cpp in Sources */,
 				5AE516D0254FEF270004DB49 /* randomwriter.cpp in Sources */,
+				5AE5175E254FF41D0004DB49 /* simpio.cpp in Sources */,
+				5AE51759254FF41D0004DB49 /* strutils.cpp in Sources */,
 				5AE516C6254F24940004DB49 /* maze.cpp in Sources */,
+				5AE5175B254FF41D0004DB49 /* random.cpp in Sources */,
+				5AE51754254FF41D0004DB49 /* init.cpp in Sources */,
+				5AE51757254FF41D0004DB49 /* graphics.cpp in Sources */,
 				5AE516BD254F24730004DB49 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +404,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDKT8JJ26G;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADTAssign",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -266,6 +418,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDKT8JJ26G;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADTAssign",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
